@@ -15,7 +15,7 @@
         <a href="index.php?c=3&k=3&id=<?php echo $maLoaiSanPham; ?>">
             <img src="images/icon/edit.png" />
         </a>
-        <a href="index.php?c=3&k=401&id=<?php echo $maLoaiSanPham; ?>" onclick="click()">
+        <a href="javascript:DeleteCat(<?php echo $maLoaiSanPham; ?>)">
             <img src="images/icon/delete.png" />
         </a>
     </td>
